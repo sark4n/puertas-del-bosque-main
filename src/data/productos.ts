@@ -12,7 +12,7 @@ export const productos: Producto[] = [
     id: '1',
     nombre: 'Puerta Relbun',
     descripcion: 'Puerta de madera sólida de roble con diseño clásico y acabado premium.',
-    imagen: '/public/images/enchapadas/enchapada1.jpg',
+    imagen: 'https://puertas-del-bosque-main-git-main-sark4ns-projects.vercel.app/public/images/enchapadas/enchapada1.jpg',
     categoria: 'enchapadas',
     destacado: true
   },
