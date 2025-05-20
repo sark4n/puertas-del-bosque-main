@@ -29,7 +29,7 @@ const Testimonios = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-4">Lo Que Dicen Nuestros Clientes</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Descubre por qué nuestros clientes confían en Puertas del Bosque para sus proyectos de puertas y molduras.
+            Descubre por qué nuestros clientes confían en Puertas Del Bosque para sus proyectos de puertas y molduras.
           </p>
         </div>
 

@@ -13,7 +13,7 @@ const Hero = () => {
               Puertas y molduras de madera de alta calidad
             </h1>
             <p className="text-lg md:text-xl text-gray-100 mb-8">
-              En Puertas del Bosque nos dedicamos a crear productos de madera duraderos y elegantes, fabricados con las mejores materias primas y técnicas artesanales.
+              En Puertas Del Bosque nos dedicamos a crear productos de madera duraderos y elegantes, fabricados con las mejores materias primas y técnicas artesanales.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link 

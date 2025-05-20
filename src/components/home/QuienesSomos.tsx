@@ -13,7 +13,7 @@ const QuienesSomos = () => {
               <div className="rounded-lg overflow-hidden shadow-lg">
                 <img
                   src="https://i.ibb.co/vx58YFnW/foto1.jpg"
-                  alt="Taller de carpintería Puertas del Bosque"
+                  alt="Taller de carpintería Puertas Del Bosque"
                   className="w-full h-[400px] object-cover"
                 />
               </div>
@@ -25,7 +25,7 @@ const QuienesSomos = () => {
           <div>
             <h2 className="text-3xl font-bold mb-6">Quiénes Somos</h2>
             <p className="text-gray-700 mb-6 leading-relaxed">
-              En <strong>Puertas del Bosque</strong> nos dedicamos a la fabricación de puertas de madera y molduras 
+              En <strong>Puertas Del Bosque</strong> nos dedicamos a la fabricación de puertas de madera y molduras 
               de alta calidad desde 2025. Nuestra pasión por la madera y el trabajo artesanal 
               nos permite buscar convertirnos en líderes en el mercado chileno.
             </p>

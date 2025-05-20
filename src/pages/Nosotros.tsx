@@ -13,7 +13,7 @@ const Nosotros: React.FC = () => {
           <div className="container-custom">
             <h1 className="text-4xl font-bold mb-4 text-white">Sobre Nosotros</h1>
             <p className="text-lg max-w-2xl">
-              Conoce la historia y valores de Puertas del Bosque, empresa chilena dedicada a la 
+              Conoce la historia y valores de Puertas Del Bosque, empresa chilena dedicada a la 
               fabricación de puertas y molduras de madera desde 2005.
             </p>
           </div>
@@ -46,7 +46,7 @@ const Nosotros: React.FC = () => {
                 <div className="rounded-lg overflow-hidden shadow-lg">
                   <img
                     src="/images/foto2.jpg"
-                    alt="Historia de Puertas del Bosque"
+                    alt="Historia de Puertas Del Bosque"
                     className="w-full h-[500px] object-cover"
                   />
                 </div>
@@ -64,7 +64,7 @@ const Nosotros: React.FC = () => {
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold mb-4">Compromiso con la Calidad</h2>
               <p className="text-gray-700 max-w-3xl mx-auto">
-                En Puertas del Bosque, la calidad no es solo una promesa, es nuestro estándar.
+                En Puertas Del Bosque, la calidad no es solo una promesa, es nuestro estándar.
               </p>
             </div>
             
