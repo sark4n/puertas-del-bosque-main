@@ -17,7 +17,7 @@ const ContactoCTA = () => {
           <div className="flex flex-col md:flex-row justify-center gap-6 mb-8">
             <div className="flex items-center justify-center">
               <Phone size={24} className="text-wood-light mr-2" />
-              <span className="text-xl">+56 9 7559 6939</span>
+              <span className="text-xl">+56 9 5608 9058</span>
             </div>
             <div className="flex items-center justify-center">
               <Mail size={24} className="text-wood-light mr-2" />
