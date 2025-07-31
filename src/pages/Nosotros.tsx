@@ -13,8 +13,7 @@ const Nosotros: React.FC = () => {
           <div className="container-custom">
             <h1 className="text-4xl font-bold mb-4 text-white">Sobre Nosotros</h1>
             <p className="text-lg max-w-2xl">
-              Conoce la historia y valores de Puertas Del Bosque, empresa chilena dedicada a la 
-              fabricación de puertas y molduras de madera desde 2005.
+              Conoce la historia, valores y compromiso de Puertas Del Bosque, empresa chilena dedicada a la fabricación de puertas y molduras de madera. Nuestra misión es dar forma a espacios duraderos y elegantes, combinando tecnología avanzada, materias primas seleccionadas y el arte de la carpintería tradicional.
             </p>
           </div>
         </div>
@@ -26,20 +25,10 @@ const Nosotros: React.FC = () => {
               <div>
                 <h2 className="text-3xl font-bold mb-6">Nuestra Historia</h2>
                 <p className="text-gray-700 mb-6 leading-relaxed">
-                  Nuestra Compañía nace al Mercado Nacional en el mes de Febrero de 2013, en la comuna de María Pinto; en un emplazamiento de más de 10 hectáreas y un galpón industrial para la producción y almacenamiento de más de 9.500 metros cuadrados. Hoy contamos con 35 colaboradores en las áreas de Fabricación, Ventas, Administración y Logística, con una vasta experiencia en este exigente mercado y con una capacidad productiva de 50.000 puertas mensuales.
+                  Puertas Del Bosque es la continuadora de empresas del rubro, continuando así la fabricación de puertas de excelencia en la comuna de María Pinto, en un entorno natural de más de 10 hectáreas, donde se emplaza nuestra planta industrial de 3.000 m² destinada a producción y almacenamiento. Hoy, contamos con un equipo de 20 colaboradores distribuidos en áreas de fabricación, ventas, administración y logística, con una capacidad productiva que alcanza las 40.000 puertas mensuales.
                 </p>
                 <p className="text-gray-700 mb-6 leading-relaxed">
-                  Nuestra Empresa ha definido una política comercial acorde a las exigencias y necesidades del mercado, incorporando con esto productos con mayor valor agregado, nuevas tecnologías incorporadas al proceso productivo, un firme compromiso con los plazos de entrega y una clara orientación al Cliente.
-                </p>
-                <p className="text-gray-700 leading-relaxed">
-                  Nuestra Empresa ha definido una política comercial acorde a las exigencias y necesidades del mercado, incorporando con esto productos con mayor valor agregado, nuevas tecnologías incorporadas al proceso productivo, un firme compromiso con los plazos de entrega y una clara orientación al Cliente.
-
-                  Esta orientación se traduce en claros compromisos con nuestros Clientes:
-
-                  Entregar productos garantizados en su calidad y por sobre el estándar vigente.
-                  Cumplir fielmente con los plazos acordados de entrega.
-                  Mejorar la oferta de productos en diseño y calidad.
-                  Ofrecer al mercado mayores y mejores alternativas de productos.
+                  Desde nuestros orígenes, hemos definido una política comercial enfocada en agregar valor a nuestros productos, incorporar tecnología de punta a nuestros procesos y mantener un compromiso firme con los plazos de entrega y la satisfacción del cliente.
                 </p>
               </div>
               <div className="relative">
@@ -64,7 +53,7 @@ const Nosotros: React.FC = () => {
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold mb-4">Compromiso con la Calidad</h2>
               <p className="text-gray-700 max-w-3xl mx-auto">
-                En Puertas Del Bosque, la calidad no es solo una promesa, es nuestro estándar.
+                En Puertas Del Bosque, la calidad no es una opción: es nuestro estándar.
               </p>
             </div>
             
@@ -77,9 +66,7 @@ const Nosotros: React.FC = () => {
                 </div>
                 <h3 className="text-xl font-bold mb-4">Materias Primas Seleccionadas</h3>
                 <p className="text-gray-700">
-                  Utilizamos maderas de la mejor calidad, seleccionadas cuidadosamente por su durabilidad, 
-                  belleza y sostenibilidad. Trabajamos principalmente con especies nativas chilenas y 
-                  maderas importadas certificadas.
+                  Trabajamos con maderas de alta durabilidad, estética superior y origen sostenible. Usamos especies nativas chilenas y maderas importadas certificadas.
                 </p>
               </div>
               
@@ -92,9 +79,7 @@ const Nosotros: React.FC = () => {
                 </div>
                 <h3 className="text-xl font-bold mb-4">Tecnología y Artesanía</h3>
                 <p className="text-gray-700">
-                  Combinamos tecnología de punta con técnicas artesanales tradicionales. 
-                  Nuestro equipo de carpinteros expertos garantiza acabados perfectos en 
-                  cada pieza que fabricamos.
+                  Integramos maquinaria de última generación a procesos artesanales, logrando acabados precisos y eficientes que conservan el carácter único de cada pieza.
                 </p>
               </div>
               
@@ -106,9 +91,7 @@ const Nosotros: React.FC = () => {
                 </div>
                 <h3 className="text-xl font-bold mb-4">Control de Calidad Riguroso</h3>
                 <p className="text-gray-700">
-                  Cada producto pasa por múltiples inspecciones durante el proceso de fabricación. 
-                  Nuestro departamento de calidad verifica que cada pieza cumpla con los estándares 
-                  antes de ser entregada al cliente.
+                  Cada producto atraviesa múltiples etapas de inspección. Nuestro equipo de calidad asegura que cada puerta y moldura supere los estándares antes de llegar al cliente.
                 </p>
               </div>
             </div>
@@ -122,27 +105,20 @@ const Nosotros: React.FC = () => {
               <div className="bg-white p-8 rounded-lg shadow-md">
                 <h3 className="text-2xl font-bold mb-4 text-wood">Nuestra Misión</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Fabricar puertas y molduras de madera de la más alta calidad, combinando 
-                  técnicas artesanales con tecnología moderna, para satisfacer las necesidades 
-                  de nuestros clientes con productos duraderos, funcionales y estéticamente superiores.
+                  Fabricar puertas y molduras de madera con los más altos estándares de calidad, combinando tecnología de punta con técnicas artesanales, para entregar soluciones duraderas, funcionales y estéticamente superiores.
                 </p>
                 <p className="text-gray-700 leading-relaxed mt-4">
-                  Buscamos ser reconocidos por nuestra excelencia en servicio al cliente, 
-                  ofreciendo asesoría personalizada y soluciones a medida para cada proyecto.
+                  Nos destacamos por una atención personalizada, asesoría directa y propuestas a medida que acompañan cada proyecto desde su inicio.
                 </p>
               </div>
               
               <div className="bg-white p-8 rounded-lg shadow-md">
                 <h3 className="text-2xl font-bold mb-4 text-wood">Nuestra Visión</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Ser la empresa líder en fabricación de puertas y molduras de madera en Chile, 
-                  reconocida por la excelencia de sus productos y su compromiso con la 
-                  sostenibilidad y la innovación.
+                  Ser referentes en Chile en la fabricación de puertas y molduras de madera, reconocidos por la excelencia, sostenibilidad e innovación de nuestros productos.
                 </p>
                 <p className="text-gray-700 leading-relaxed mt-4">
-                  Expandir nuestro alcance a nivel internacional, llevando la calidad de la 
-                  carpintería chilena a nuevos mercados, manteniendo siempre nuestros valores 
-                  de excelencia, honestidad y compromiso con el cliente.
+                  Expandir nuestra presencia en mercados internacionales, llevando el sello de calidad de la carpintería chilena más allá de nuestras fronteras, manteniendo intactos nuestros valores de honestidad, compromiso y respeto por nuestros clientes.
                 </p>
               </div>
             </div>

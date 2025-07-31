@@ -25,22 +25,24 @@ const QuienesSomos = () => {
           <div>
             <h2 className="text-3xl font-bold mb-6">Quiénes Somos</h2>
             <p className="text-gray-700 mb-6 leading-relaxed">
-              En <strong>Puertas Del Bosque</strong> nos dedicamos a la fabricación de puertas de madera y molduras 
-              de alta calidad desde 2025. Nuestra pasión por la madera y el trabajo artesanal 
-              nos permite buscar convertirnos en líderes en el mercado chileno.
+              Contamos con equipos de fabricación y comercialización con más de 40 años de experiencia, en Puertas Del Bosque nos dedicamos a la fabricación de puertas y molduras de madera con enfoque en la excelencia. Nuestra pasión por la nobleza de la madera y el trabajo tecnificado que posicionan a nuestra empresa entre las más avanzadas del rubro en Chile.
             </p>
             <div className="mb-8">
               <div className="flex items-start mb-4">
                 <CheckCircle className="text-wood mt-1 mr-3 flex-shrink-0" />
-                <p>Profesionales con más de 40 años de experiencia en el rubro maderero.</p>
+                <p>Contamos con profesionales con más de 40 años de experiencia en el sector maderero.</p>
               </div>
               <div className="flex items-start mb-4">
                 <CheckCircle className="text-wood mt-1 mr-3 flex-shrink-0" />
-                <p>Utilizamos maderas seleccionadas y técnicas artesanales de fabricación.</p>
+                <p>Empleamos maquinaria de última generación que optimiza cada fase del proceso productivo, sin perder el toque artesanal que distingue nuestros productos.</p>
               </div>
               <div className="flex items-start">
                 <CheckCircle className="text-wood mt-1 mr-3 flex-shrink-0" />
-                <p>Productos personalizados adaptados a las necesidades de cada cliente.</p>
+                <p>Seleccionamos cuidadosamente las maderas para garantizar carácter, resistencia y belleza en cada pieza.</p>
+              </div>
+              <div className="flex items-start">
+                <CheckCircle className="text-wood mt-1 mr-3 flex-shrink-0" />
+                <p>Diseñamos soluciones personalizadas para cada cliente, adaptándonos a sus necesidades técnicas, funcionales y estéticas.</p>
               </div>
             </div>
             <Link 
