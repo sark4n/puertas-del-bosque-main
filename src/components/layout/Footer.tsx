@@ -12,7 +12,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4 text-wood-light">Puertas del Bosque</h3>
             <p className="mb-4 text-gray-300">
-              Empresa chilena dedicada a la fabricación de puertas de madera y molduras de la más alta calidad desde 2005.
+              Empresa chilena dedicada a la fabricación de puertas de madera y molduras de la más alta calidad.
             </p>
             {/*
             <div className="flex space-x-4">

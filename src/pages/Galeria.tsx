@@ -29,7 +29,7 @@ const Galeria: React.FC = () => {
             <h1 className="text-4xl font-bold mb-4 text-white">Galería de Trabajos</h1>
             <p className="text-lg max-w-2xl">
               Explora nuestros proyectos y productos terminados que muestran la calidad y 
-              artesanía de Famavir.
+              artesanía de Puertas del Bosque.
             </p>
           </div>
         </div>
