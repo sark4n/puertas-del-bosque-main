@@ -36,7 +36,7 @@ const QuienesSomos = () => {
                 <CheckCircle className="text-marron-nogal mt-1 mr-3 flex-shrink-0" />
                 <p>Empleamos maquinaria de última generación que optimiza cada fase del proceso productivo, sin perder el toque artesanal que distingue nuestros productos.</p>
               </div>
-              <div className="flex items-start">
+              <div className="flex items-start mb-4">
                 <CheckCircle className="text-marron-nogal mt-1 mr-3 flex-shrink-0" />
                 <p>Seleccionamos cuidadosamente las maderas para garantizar carácter, resistencia y belleza en cada pieza.</p>
               </div>
