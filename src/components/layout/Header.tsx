@@ -15,7 +15,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-white shadow-sm sticky top-0 z-50">
+    <header className="bg-beige-calido shadow-sm sticky top-0 z-50">
       <div className="container-custom py-4">
         <div className="flex items-center justify-between">
           {/* Logo y Título */}
@@ -25,7 +25,7 @@ const Header = () => {
               alt="Puertas del Bosque Logo" 
               className="h-10 mr-3" 
             />
-            <span className="text-2xl font-bold text-wood">Puertas del Bosque</span>
+            <span className="text-2xl font-bold text-verde-bosque">Puertas del Bosque</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -49,7 +49,7 @@ const Header = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden p-2 rounded-md text-gray-600 hover:text-wood focus:outline-none"
+            className="md:hidden p-2 rounded-md text-gris-acero hover:text-marron-nogal focus:outline-none"
             onClick={toggleMenu}
             aria-label="Toggle menu"
           >
@@ -94,7 +94,7 @@ const NavLink = ({ to, children, icon, onClick, mobile = false }: NavLinkProps) 
   return (
     <Link
       to={to}
-      className={`flex items-center text-gray-800 hover:text-wood transition-colors ${
+      className={`flex items-center text-gris-acero hover:text-marron-nogal transition-colors ${
         mobile ? 'py-2 px-4 block border-b border-gray-200' : ''
       }`}
       onClick={onClick}

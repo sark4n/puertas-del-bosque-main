@@ -35,7 +35,7 @@ const ProductoCard: React.FC<ProductoCardProps> = ({ producto }) => {
         {/* <p className="text-gray-600 mb-4 line-clamp-3">{producto.descripcion}</p>*/}
         <button 
           onClick={openModal}
-          className="text-wood hover:text-wood-dark font-medium inline-flex items-center transition-colors"
+          className="text-marron-nogal hover:text-azul-petroleo font-medium inline-flex items-center transition-colors"
         >
           Ver Detalles
           <svg className="w-5 h-5 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

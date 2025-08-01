@@ -63,14 +63,20 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-                // Add custom wood-themed colors
+                // Nueva paleta de colores estratégica
+                'verde-bosque': '#2E4F3E',
+                'gris-acero': '#4F4F4F',
+                'beige-calido': '#F5F0E6',
+                'marron-nogal': '#8B5E3C',
+                'azul-petroleo': '#264653',
+                // Mantener compatibilidad con colores existentes
                 wood: {
-                    light: '#c2a678',
-                    DEFAULT: '#9c7e4a',
-                    dark: '#664f2a'
+                    light: '#8B5E3C',
+                    DEFAULT: '#8B5E3C',
+                    dark: '#2E4F3E'
                 },
-                offwhite: '#f9f7f2',
-                charcoal: '#333333'
+                offwhite: '#F5F0E6',
+                charcoal: '#4F4F4F'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

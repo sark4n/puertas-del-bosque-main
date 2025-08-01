@@ -36,7 +36,7 @@ const ProductosDestacados = () => {
                 <p className="text-gray-600 mb-4">{producto.descripcion}</p>
                 <Link 
                   to={`/productos?categoria=${producto.categoria}`}
-                  className="text-wood hover:text-wood-dark font-medium inline-flex items-center transition-colors"
+                  className="text-marron-nogal hover:text-azul-petroleo font-medium inline-flex items-center transition-colors"
                 >
                   Ver Detalles
                   <svg className="w-5 h-5 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -51,7 +51,7 @@ const ProductosDestacados = () => {
         <div className="text-center mt-12">
           <Link 
             to="/productos" 
-            className="bg-wood hover:bg-wood-dark text-white font-medium py-3 px-6 rounded-md transition-colors"
+            className="bg-marron-nogal hover:bg-azul-petroleo text-white font-medium py-3 px-6 rounded-md transition-colors"
           >
             Ver Todos los Productos
           </Link>

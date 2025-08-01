@@ -24,7 +24,7 @@ const Galeria: React.FC = () => {
       <Header />
       <main>
         {/* Banner */}
-        <div className="bg-gradient-to-r from-charcoal to-gray-700 text-white py-12">
+        <div className="bg-gradient-to-r from-azul-petroleo to-verde-bosque text-white py-12">
           <div className="container-custom">
             <h1 className="text-4xl font-bold mb-4 text-white">Galería de Trabajos</h1>
             <p className="text-lg max-w-2xl">
@@ -83,7 +83,7 @@ const FilterButton: React.FC<FilterButtonProps> = ({ children, active, onClick }
       onClick={onClick}
       className={`px-6 py-2 rounded-md font-medium transition-colors ${
         active
-          ? 'bg-wood text-white'
+          ? 'bg-marron-nogal text-white'
           : 'bg-gray-100 text-gray-800 hover:bg-gray-200'
       }`}
     >

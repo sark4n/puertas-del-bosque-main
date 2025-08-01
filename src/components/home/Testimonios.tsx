@@ -46,6 +46,7 @@ const Testimonios = () => {
               >
                 <div className="bg-white p-8 rounded-lg shadow-lg">
                   <Quote className="text-wood opacity-20 w-12 h-12 mb-4" />
+                  <Quote className="text-marron-nogal opacity-20 w-12 h-12 mb-4" />
                   <p className="text-gray-700 italic mb-6">{testimonio.contenido}</p>
                   <div className="flex items-center">
                     {testimonio.imagen && (
@@ -75,7 +76,7 @@ const Testimonios = () => {
                 key={index}
                 onClick={() => setActiveIndex(index)}
                 className={`w-3 h-3 mx-1 rounded-full transition-all ${
-                  activeIndex === index ? 'bg-wood scale-125' : 'bg-gray-400'
+                  activeIndex === index ? 'bg-marron-nogal scale-125' : 'bg-gray-400'
                 }`}
                 aria-label={`Ver testimonio ${index + 1}`}
               ></button>

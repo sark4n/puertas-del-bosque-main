@@ -74,6 +74,7 @@ const ContactForm: React.FC = () => {
           value={formData.nombre}
           onChange={handleChange}
           className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-wood focus:border-transparent"
+          className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-marron-nogal focus:border-transparent"
           placeholder="Tu nombre completo"
           required
         />
@@ -90,6 +91,7 @@ const ContactForm: React.FC = () => {
           value={formData.email}
           onChange={handleChange}
           className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-wood focus:border-transparent"
+          className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-marron-nogal focus:border-transparent"
           placeholder="tu@email.com"
           required
         />
@@ -106,6 +108,7 @@ const ContactForm: React.FC = () => {
           value={formData.telefono}
           onChange={handleChange}
           className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-wood focus:border-transparent"
+          className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-marron-nogal focus:border-transparent"
           placeholder="+56 9 1234 5678"
         />
       </div>
@@ -120,7 +123,7 @@ const ContactForm: React.FC = () => {
           value={formData.mensaje}
           onChange={handleChange}
           rows={5}
-          className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-wood focus:border-transparent"
+          className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-marron-nogal focus:border-transparent"
           placeholder="Escribe tu mensaje aquí..."
           required
         />
@@ -129,7 +132,7 @@ const ContactForm: React.FC = () => {
       <button
         type="submit"
         disabled={isSubmitting}
-        className="w-full bg-wood hover:bg-wood-dark text-white font-medium py-3 px-6 rounded-md transition-colors flex items-center justify-center"
+        className="w-full bg-marron-nogal hover:bg-azul-petroleo text-white font-medium py-3 px-6 rounded-md transition-colors flex items-center justify-center"
       >
         {isSubmitting ? (
           <span>Enviando...</span>

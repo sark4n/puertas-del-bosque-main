@@ -11,7 +11,7 @@ const Contacto: React.FC = () => {
       <Header />
       <main>
         {/* Banner */}
-        <div className="bg-gradient-to-r from-charcoal to-wood-dark text-white py-12">
+        <div className="bg-gradient-to-r from-azul-petroleo to-verde-bosque text-white py-12">
           <div className="container-custom">
             <h1 className="text-4xl font-bold mb-4 text-white">Contacto</h1>
             <p className="text-lg max-w-2xl">
@@ -34,10 +34,10 @@ const Contacto: React.FC = () => {
               {/* Datos de contacto */}
               <div>
                 <h2 className="text-2xl font-bold mb-6">Información de contacto</h2>
-                <div className="bg-offwhite rounded-lg p-8 shadow-md mb-8">
+                <div className="bg-beige-calido rounded-lg p-8 shadow-md mb-8">
                   <div className="space-y-6">
                     <div className="flex">
-                      <MapPin size={24} className="text-wood mr-4 flex-shrink-0" />
+                      <MapPin size={24} className="text-marron-nogal mr-4 flex-shrink-0" />
                       <div>
                         <h3 className="font-bold mb-1">Dirección</h3>
                         <p className="text-gray-700">
@@ -48,7 +48,7 @@ const Contacto: React.FC = () => {
                     </div>
                     
                     <div className="flex">
-                      <Phone size={24} className="text-wood mr-4 flex-shrink-0" />
+                      <Phone size={24} className="text-marron-nogal mr-4 flex-shrink-0" />
                       <div>
                         <h3 className="font-bold mb-1">Teléfono</h3>
                         <p className="text-gray-700">+56 9 5608 9058</p>
@@ -56,7 +56,7 @@ const Contacto: React.FC = () => {
                     </div>
                     
                     <div className="flex">
-                      <Mail size={24} className="text-wood mr-4 flex-shrink-0" />
+                      <Mail size={24} className="text-marron-nogal mr-4 flex-shrink-0" />
                       <div>
                         <h3 className="font-bold mb-1">Email</h3>
                         <p className="text-gray-700">contacto@puertasdelbosque.cl</p>
@@ -64,7 +64,7 @@ const Contacto: React.FC = () => {
                     </div>
                     
                     <div className="flex">
-                      <Clock size={24} className="text-wood mr-4 flex-shrink-0" />
+                      <Clock size={24} className="text-marron-nogal mr-4 flex-shrink-0" />
                       <div>
                         <h3 className="font-bold mb-1">Horario de Atención</h3>
                         <p className="text-gray-700">

@@ -49,7 +49,7 @@ const Productos: React.FC = () => {
       <Header />
       <main>
         {/* Banner */}
-        <div className="bg-gradient-to-r from-wood to-wood-dark text-white py-12">
+        <div className="bg-gradient-to-r from-marron-nogal to-azul-petroleo text-white py-12">
           <div className="container-custom">
             <h1 className="text-4xl font-bold mb-4 text-white">Nuestros Productos</h1>
             <p className="text-lg max-w-2xl">
@@ -71,7 +71,7 @@ const Productos: React.FC = () => {
                     onClick={() => handleCategoriaChange(categoria.id)}
                     className={`px-4 py-2 rounded-md font-medium transition-colors ${
                       categoriaActiva === categoria.id
-                        ? 'bg-wood text-white'
+                        ? 'bg-marron-nogal text-white'
                         : 'bg-gray-100 text-gray-800 hover:bg-gray-200'
                     }`}
                   >

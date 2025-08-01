@@ -5,12 +5,12 @@ import { MapPin, Phone, Mail, Clock, Facebook, Instagram, Linkedin } from 'lucid
 
 const Footer = () => {
   return (
-    <footer className="bg-charcoal text-white pt-12 pb-6">
+    <footer className="bg-verde-bosque text-white pt-12 pb-6">
       <div className="container-custom">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-semibold mb-4 text-wood-light">Puertas del Bosque</h3>
+            <h3 className="text-xl font-semibold mb-4 text-beige-calido">Puertas del Bosque</h3>
             <p className="mb-4 text-gray-300">
               Empresa chilena dedicada a la fabricación de puertas de madera y molduras de la más alta calidad.
             </p>
@@ -30,30 +30,30 @@ const Footer = () => {
 
           {/* Links */}
           <div>
-            <h3 className="text-xl font-semibold mb-4 text-wood-light">Enlaces</h3>
+            <h3 className="text-xl font-semibold mb-4 text-beige-calido">Enlaces</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/" className="text-gray-300 hover:text-wood-light transition-colors">
+                <Link to="/" className="text-gray-300 hover:text-beige-calido transition-colors">
                   Inicio
                 </Link>
               </li>
               <li>
-                <Link to="/productos" className="text-gray-300 hover:text-wood-light transition-colors">
+                <Link to="/productos" className="text-gray-300 hover:text-beige-calido transition-colors">
                   Productos
                 </Link>
               </li>
               <li>
-                <Link to="/galeria" className="text-gray-300 hover:text-wood-light transition-colors">
+                <Link to="/galeria" className="text-gray-300 hover:text-beige-calido transition-colors">
                   Galería
                 </Link>
               </li>
               <li>
-                <Link to="/nosotros" className="text-gray-300 hover:text-wood-light transition-colors">
+                <Link to="/nosotros" className="text-gray-300 hover:text-beige-calido transition-colors">
                   Nosotros
                 </Link>
               </li>
               <li>
-                <Link to="/contacto" className="text-gray-300 hover:text-wood-light transition-colors">
+                <Link to="/contacto" className="text-gray-300 hover:text-beige-calido transition-colors">
                   Contacto
                 </Link>
               </li>
@@ -62,22 +62,22 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-xl font-semibold mb-4 text-wood-light">Contacto</h3>
+            <h3 className="text-xl font-semibold mb-4 text-beige-calido">Contacto</h3>
             <ul className="space-y-3">
               <li className="flex items-start">
-                <MapPin size={18} className="mr-2 mt-1 text-wood-light" />
+                <MapPin size={18} className="mr-2 mt-1 text-beige-calido" />
                 <span className="text-gray-300">Ruta G730, Parcela Nº 71, Chorombo Alto – María Pinto, Chile</span>
               </li>
               <li className="flex items-center">
-                <Phone size={18} className="mr-2 text-wood-light" />
+                <Phone size={18} className="mr-2 text-beige-calido" />
                 <span className="text-gray-300">+56 9 5608 9058</span>
               </li>
               <li className="flex items-center">
-                <Mail size={18} className="mr-2 text-wood-light" />
+                <Mail size={18} className="mr-2 text-beige-calido" />
                 <span className="text-gray-300">contacto@puertasdelBosque.cl</span>
               </li>
               <li className="flex items-start">
-                <Clock size={18} className="mr-2 mt-1 text-wood-light" />
+                <Clock size={18} className="mr-2 mt-1 text-beige-calido" />
                 <span className="text-gray-300">Lun-Vie: 9:00 - 18:00<br /></span>
               </li>
             </ul>
